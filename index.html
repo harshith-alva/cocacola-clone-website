@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>coca-cola</title>
+</head>
+<body >
+<header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light position-absolut ">
+        <div class="container-fluid head-section">
+          <a class="navbar-brand ms-5 ps-5"  href="#"><img src="https://www.coca-cola.com/content/dam/onexp/global/icons/Coke-company-logo-black.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ms-4 nav-text" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active ps-4" aria-current="page" href="#">Brands</a>
+              </li>
+              
+              <li class="nav-item dropdown ms-4" >
+                <!-- id="nav-hover" -->
+                <a class="nav-link active dropdown-toggle nav-hover" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Discover
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Coke Studio Bharat</a></li>
+                  <li><a class="dropdown-item" href="#">Coke Studio Global</a></li>
+                  <li><a class="dropdown-item" href="#">Coke Food Loot</a></li>
+                  <li><a class="dropdown-item" href="#">Sprite Joke In A Bottle</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ms-4">
+                <a class="nav-link active dropdown-toggle nav-hover" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Impact
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Sustainability</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ms-4">
+                <a class="nav-link active dropdown-toggle nav-hover" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Big Basket</a></li>
+                  <li><a class="dropdown-item" href="#">Blinkit</a></li>
+                  <li><a class="dropdown-item" href="#">Flipkart</a></li>
+                  <li><a class="dropdown-item" href="#">Jiomart</a></li>
+                  <li><a class="dropdown-item" href="#">Amazon</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+<main>
+    <section id="test">
+        <!-- carousel -->
+        <div class="container pt-5  position-relative " id="carousel-div">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active banner" >
+                <img src="https://www.coca-cola.com/content/dam/onexp/in/en/brands/sprite/2560x1208_Desktop_Hero%20image.jpg/width1960.jpg" class="d-block w-100 m-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.coca-cola.com/content/dam/onexp/in/en/homepage/Schweppes%20CCI%20Website%20Banner_2560%20X%201208%20Pix_Updated.jpg/width1960.jpg" class="d-block w-100 m-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/brands/fanta/fanta-first-img-desktop.png/width1960.png" class="d-block w-100 m-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/homepage/homepage-new-img-resize/Maaza%20banner%204-%20desktop.png/width1960.png" class="d-block w-100 m-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/homepage/homepage-new-img-resize/1280x604-desktop2.jpg/width1960.jpg" class="d-block w-100 m-auto" alt="...">
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button> -->
+          </div>
+        </div>
+    </section>
+
+    <section class="experience">
+        <div class="container pt-5">
+            <h2 class="text-center pt-5 pb-5">Experiences</h2>
+            <div class="container mt-3">
+                <div class="row d-flex ">
+                    <div class="col-12 col-md-6 fw-bold fs-3 pt-5 exprns text-center">
+                        <p class="pt-5 mt-5">
+                            Coke Studio Bharat: <br>
+                            Drink.Scan.Unlock <br>
+                            Exclusive Music. <br>
+                        </p>
+                        <button class="mb-5 rounded-pill px-5 sm-fs-5 md-fs-5">
+                            Explore Now
+                        </button>
+                    </div>
+                    <div class="col-12 col-md-6 order-first order-md-last">
+                        <div class="container mt-5">
+                            <img  src="https://www.coca-cola.com/content/dam/onexp/in/en/homepage/Coke%20Studi%20Bharat_Banner_R2_Desktop_640px%20X%20552px_.jpg/width1960.jpg" class="img-fluid border rounded" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!-- card -->
+    <section class="twobox">
+    <div class="container pt-5">
+        <h2 class="text-center pt-5 pb-5 fw-bold">Sustainability news</h2>
+        </div>
+  <div class="container w-75">
+    <div class="row gx-5">
+      <div class="col-sm-12 col-md-6">
+        <div class="card">
+          <img
+            src="https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/homepage/homepage--resizing-img/sustainability%20news%20world%20without%20waste_desktop.jpg"
+            class="img-fluid">
+          <div class="card-body">
+            <h3 class="card-title pt-4 ms-4 fw-bold">On a mission to a world without <br> waste</h3>
+            <p class="card-text ms-4">We aim to collect back packaging for recycling <br>
+              equivalent to what we put out in the market by 2030&#8228;</p>
+            <p class="card-text mt-2 ms-4"><small class="text-muted">Learn More <i
+                  class="fa-solid fa-arrow-right"></i></small></p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="card">
+          <img
+            src="https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/homepage/homepage--resizing-img/sustainability%20news%20sustainable%20agriculture_desktop.jpg"
+            class="img-fluid">
+          <h3 class="card-title pt-4 mt-2 ms-4 fw-bold">Promotingn Sustainable Agriculture</h3>
+          <p class="card-text ms-4">Our efforts are focussed on improving the overall <br>
+            fruit availability, increasing farming efficiency as well <br>
+            as building food processing capacity in the country, <br>
+            thereby helping farmers increase their income&#8228;</p>
+          <p class="card-text ms-4 mb-2"><small class="text-muted">Learn More <i
+                class="fa-solid fa-arrow-right"></i></small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+     <!-- overflow boxes -->
+    <!-- <div class="container border-1"> -->
+        <div class="container outer pt-5 mt-5">
+            <div class="container box1">
+              <img
+                src="https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/homepage/homepage--resizing-img/640x552.jpg/width1960.jpg"
+                class="img-fluid">
+            </div>
+            <div class="container box2 d-none d-xl-block">
+              <div class="box-head container w-75">
+                <h2>
+                  Presenting the “Super <br> 30” glorious years of <br> Limca® Book of <br> Records!
+                </h2>
+              </div>
+              <!-- <div class="box-content container w-75"> -->
+                <p class="text-dark" id="text">
+                  This year’s Limca Book of Records is a <br>
+                  combined edition of two challenging years and <br>
+                  celebrates stellar victories and <br>
+                  accomplishments in human endeavor, <br>
+                  education, adventure, business, cinema, the <br>
+                  natural world, literature, and the arts.
+                </p>
+              <!-- </div> -->
+              <!-- <div class="button-overflow"> -->
+                <button type="button" class="btn btn-outline-dark m-auto  btn-lg border-1">Learn More</button>
+              <!-- </div> -->
+            </div>
+
+
+            <div class="container box2 d-block d-xl-none">
+              <div class="box-head container w-75">
+                <h2>
+                  Presenting the “Super 30” glorious years of Limca® Book of Records!
+                </h2>
+              </div>
+              <!-- <div class="box-content container w-75"> -->
+                <p class="text-dark" id="text">
+                  This year’s Limca Book of Records is a
+                  combined edition of two challenging years and
+                  celebrates stellar victories and
+                  accomplishments in <br> human endeavor,
+                  education, adventure, business, cinema, the 
+                  natural world, literature, and the arts.
+                </p>
+              <!-- </div> -->
+              <!-- <div class="button-overflow"> -->
+                <button type="button" class="btn btn-outline-dark m-auto  btn-lg border-1">Learn More</button>
+              <!-- </div> -->
+            </div>
+        </div>
+</section>
+
+<!-- grid -->
+
+<section>
+<div class="container mt-5">
+  <div class="container brand-head text-center pb-3">
+    <h2>Explore Our Brands</h2>
+</div>
+  <div class="row gx-5 gy-5">
+    <div class="col-12 col-lg-4">
+       <div class="container w-75 bg-white m-auto border border-1 rounded">
+        <img src="https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/brands/coca-cola/Coca-Cola-Logo.svg" class="img-fluid p-4" alt="">
+       </div>
+    </div>
+    <div class="col-12 col-lg-4">
+      <div class="container w-75 bg-white m-auto border border-1 rounded">
+      <img src="https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/brands/sprite/new-654x1080/new-svg-logo/Sprite%20Logo.svg" class="img-fluid p-4" alt="">
+     </div>
+    </div>
+    <div class="col-12 col-lg-4">
+      <div class="container w-75 bg-white m-auto border border-1 rounded">
+        <img src="https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/logos1/logo-svg/TU%20Logo.svg" class="img-fluid p-4" alt="">
+       </div>
+    </div>
+    <div class="col-12 col-lg-4">
+      <div class="container w-75 bg-white m-auto border border-1 rounded">
+        <img src="https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/logos1/logo-svg/Limca.svg" class="img-fluid p-4" alt="">
+       </div>
+    </div>
+    <div class="col-12 col-lg-4">
+      <div class="container w-75 bg-white m-auto border border-1 rounded pt-5">
+        <img src="data:image/png;base64,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" 
+        class="img-fluid p-1 mb-4" alt="">
+       </div>
+    </div>
+    <div class="col-12 col-lg-4">
+      <div class="container w-75 bg-white m-auto border border-1 rounded">
+        <img src="https://www.coca-cola.com/content/dam/onexp/in/en/logos/maaza%20desktop-01.svg" class="img-fluid p-4" alt="">
+       </div>
+    </div>
+  </div>
+  <div class="brand-button d-flex justify-content-center mt-5">
+    <button type="button" class="btn btn-dark btn-lg rounded-pill " style="width: 300px; font-size: medium;" >View All</button>
+  </div>
+</div>
+</section>
+
+<section>
+    <div class="container-fluid mt-3 pt-3">
+        <div class="container">
+          <div class="para d-flex justify-content-center mt-5" style="font-family: sans-serif;line-height: 2;">
+            <p>
+              
+              COCA-COLA: CARBONATED WATER. COCA-COLA IS A REGISTERED TRADEMARK OF THE COCA-COLA COMPANY. VEGETARIAN <br>
+              PRODUCT. <br><br>
+              COCA-COLA ZERO SUGAR: CARBONATED WATER. CONTAINS NON-CALORIC SWEETENER. THIS CARBONATED WATER CONTAINS <br>
+              AN ADMIXTURE OF SUCRALOSE AND ACESULFAME POTASSIUM. NOT RECOMMENDED FOR CHILDERN, PREGNANT AND <br>
+              LACTATING MOTHERS. TRADEMARK OWNER: THE COCA-COLA COMPANY. VEGETARIAN PRODUCT. <br><br>
+              DIET COKE: CARBONATED WATER. CONTAINS AN ADMIXTURE OF ASPARTAME AND ACESULFAME POTASSIUM. NOT <br>
+              RECOMMENDED FOR PHENYLKETONURICS; FOR CHILDERN; PREGNANT AND LACTATING MOTHERS. COKE IS A REGISTERED <br>
+              TRADEMARK OF THE COCA-COLA COMPANY. VEGETARIAN PRODUCT. <br><br>
+              SPRITE: CARBONATED WATER. SPRITE IS A REGISTERED TRADEMARK OF THE COCA-COLA COMPANY. VEGETARIAN PRODUCT.
+              <br><br>
+              THUMS UP: CARBONATED WATER. THUMS UP IS A REGISTERED TRADEMARK OF THE COCA-COLA COMPANY. VEGETARIAN <br>
+              PRODUCT.<br><br>
+              LIMCA: CARBONATED WATER. ADDED LIME AND LEMON FLAVORS. 'LIME AND LEMONI' IS A CREATIVE EXPRESSION USED FOR
+              <br>LIMCA. LIMCA IS A REGISTERED TRADEMARK OF THE COCA-COLA COMPANY. VEGETARIAN PRODUCT. <br><br>
+              LIMCA SPORTZ: READY TO SERVE FRUIT BEVERAGE. *CONTAINS CARBOHYDRATE (INCLUDES 2.2% GLUCOSE) AND WITH <br>
+              ELECTROLYTES (SODIUM, POTASSIUM, CHLORIDE) WHICH HELP IN FASTER REHYDRATION THROUGH QUICK REPLACEMENT OF <br>
+              FLUID AND SALTS LOST IN SWEAT. LIMCA IS A REGISTERED TRADEMARK OF THE COCA-COLA COMPANY. VEGETARIAN PRODUCT.
+              <br><br>
+              FANTA: CARBONATED WATER. FANTA IS A REGISTERED TRADEMARK OF THE COCA-COLA COMPANY. VEGETARIAN PRODUCT.
+              <br><br>
+              FANTA APPLE DELITE: CARBONATED FRUIT BEVERAGE. CONTAINS 10.5% APPLE JUICE. CONTAINS NO FRUIT PIECES. "BITE"
+              <br>
+              REFERS TO CRISPY, CRUNCHY TASTE OF APPLE. FANTA IS A REGISTERED TRADEMARK OF THE COCA-COLA <br>
+              COMPANY. VEGETARIAN PRODUCT. <br><br>
+              MAAZA ORIGINAL: READY TO SERVE FRUIT DRINK. MAAZA MANGO CONTAINS BLEND OF MANGO PULP INCLUDING ALPHONSO. <br>
+              MAAZA IS A REGISTERED TRADEMARK OF THE COCA-COLA COMPANY <br><br>
+              MAAZA AAM PANNA: READY TO SERVE FRUIT DRINK. MAAZA AAM PANNA IS A REGISTERED TRADEMARK OF THE COCA-COLA <br>
+              COMPANY <br><br>
+              CHARGED BY THUMS UP: CAFFEINATED BEVERAGE. *CHARGED BY THUMS UP HAS 2.8 TIMES CAFFEINE COMPARED TO <br>
+              REGULAR 250ml THUMS UP. CONTAINS ADDED BERRY FLAVOURS. HIGH CAFFEINE: 62.5mg/250ml. NOT RECOMMENDED FOR <br>
+              CHILDERN, PREGNANT OR LACTATING WOMEN, PERSONS SENSITIVE TO CAFFEINE. CONSUME NOT MORE THAN 500ml PER <br>
+              DAY. THUMS UP IS A REGISTERED TRADEMARK OF THE COCA-COLA COMPANY. * MRP INCLUSIVE OF ALL TAXES. VEGETARIAN
+              <br>
+              PRODUCT. <br><br>
+            </p>
+          </div>
+        </div>
+      </div>
+</section>
+</main>
+
+
+<footer>
+  <div class="container-fluid pb-5" style="background-color: black;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 pt-5 pe-5">
+          <img src="https://www.coca-cola.com/content/dam/onexp/global/icons/logo-white-large.svg" 
+          class="img-fluid" alt="">
+        </div>
+        
+        <div class="col-lg-4 col-sm-12 pt-5">
+          <a href="#" class="btn bg-dark text-white border border-1 border-white rounded-pill pe-5 ps-5"><i class="fa-solid fa-location-dot"></i> India | English</a>
+        </div>
+        <div class="container pt-3">
+          <hr style="width: 90%; color: rgb(255, 255, 255);">
+        </div>
+        <div class="row text-white">
+          <div class="col-12 text-center text-md-start col-md-2">
+            <h4 class="About-us text-muted mb-3">About us</h4>
+            <ul class="list-unstyled last-foot">
+              <li>Our Company</li>
+              <li>Media Center</li>
+              <li>History</li>
+              <li>Careers</li>
+              <li>Leadership</li>
+            </ul>
+          </div>
+          <div class="col-12 text-center text-md-start col-md-2">
+            <h4 class="About-us text-muted mb-3">Need Help?</h4>
+            <ul class="list-unstyled last-foot">
+              <li>FAQ</li>
+              <li>Sitemap</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="col-12 text-center text-md-start col-md-2">
+            <ul class="list-unstyled pt-5 last-foot">
+              <li>Terms of Use</li>
+              <li>Privacy Policy</li>
+              <li>Financial & Policy Document</li>
+
+            </ul>
+          </div>
+          <div class="col-12 text-center text-md-end col-md-5 pt-3">
+            <i class="fa-brands fa-instagram me-2"></i>
+            <i class="fa-brands fa-twitter me-2"></i>
+            <i class="fa-brands fa-facebook me-2"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div class="container">
+            <hr style="width: 93%; color: rgb(255, 255, 255);">
+          </div>
+        
+        </div>
+      
+      </div>
+
+    </div>
+    <div class="container text-white text-end w-75 pt-3 " style="font-size: 12px;">
+      <p class="me-2">&copy; 2022 The Coca‑Cola Company. All rights reserved.</p>
+    </div>
+ </div>
+ 
+</footer>    
+
+
+
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

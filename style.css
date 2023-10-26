@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;700;900&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f5f2ee;
+
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;700;900&display=swap');
+
+
+
+.head-section{
+    /* background-color: rgb(255, 254, 254); */
+    height: 50px;
+}
+#carousel-div{
+    
+    width: 100;
+    /* border: 2px solid red; */
+}
+#test{
+    /* border: 1px solid yellow; */
+    background-image: linear-gradient(rgba(223, 221, 221, 0.925),white);
+
+}
+.nav-text{
+    z-index: 1;
+    /* border: 1px solid; */
+    font-weight: 500;
+    
+}
+.nav-hover:hover{
+    border-bottom: 2px solid black;
+}
+.banner img{
+    z-index: -1;
+    /* border: 2px solid red; */
+
+}
+.img-box{
+    width: 40%;
+    height: 25rem;
+    /* border: 1px solid greenyellow; */
+}
+
+.experience button{
+    font-size: 17px;
+    width: 250px;
+}
+
+
+/* grid */
+    .grid-border{
+        background-color: #fff;
+    }
+    .grid-border img{
+        width: auto;
+        height: 10rem;
+    }
+
+     .outer{
+        height: 600px;
+        width: 75%;
+        position: relative;
+    }
+
+    .box1{
+        bottom: 0;
+        left: 0;
+        /* border: 1px solid red; */
+        width: 60%;
+        position: absolute;
+
+    }
+
+    .box2{
+        width: 50%;
+        background-color: white;
+        position: absolute;
+        right: 0;
+        /* left: 0; */
+        margin: auto;
+        top: 0;
+        border-radius: 20px;
+        padding: 40px 10px;
+        /* border: 1px solid greenyellow; */
+        margin: left;
+        box-shadow: 10px 10px 5px #aaaaaa;
+
+    }
+    @media screen and (max-width: 480px){
+        .box-content p{
+            font-size: 0.8rem;
+        }
+        .button-overflow button{
+            width: 30%;
+            border-radius: 30px;
+            font-size: 1rem;
+        
+        }
+        .box2{
+            width: 80%;
+            background-color: white;
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: auto;
+            top: 0;
+            border-radius: 20px;
+            padding: 40px 10px;
+        
+        }
+        .container .box1{
+            width: 100%;
+            height: 300px;
+            position: absolute;
+            bottom: 0;
+           
+           
+        }
+        .box1 img{
+            width: 100%;
+            height: 100%;
+            border-radius: 00px;
+            
+        }
+        .outer{
+            height: 600px;
+            width: 100%;
+            position: relative;
+        }
+        .foot-center{
+            align-items: center;
+            text-align:center ;
+        }
+    }
+    /* @media only screen and(max-width:1200px) {
+        .box2{
+            background-color: rgb(65, 40, 6);
+            width: 100%;
+        }
+        .box-content p{
+            font-size: 10px;
+        }
+        .button-overflow button{
+            color: aqua;
+        }
+        #text{
+            font-size: smaller;
+        } */
+        
+    
+    @media only screen and (max-width: 1200px) {
+        .box2{
+            /* border: 2px solid rgb(128, 0, 75); */
+            width: 100%;
+            font-size: 17px;
+        }
+        .box1{
+            width: 100%;
+        }
+        #text{
+            font-size: medium;
+        }
+        .box-head{
+            /* background-color: aqua; */
+            font-size: 15px;
+        }
+    }
+    
+
+
+    .About-us{
+        font-family: 'Noto Sans', sans-serif;
+        color: rgb(145,127,106);
+        font-size: 15px;
+    }
+
+    
+    .last-foot{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 17px;
+    }
+    #navbarNavDropdown{
+        background-color: white;
+    }
+ 
+
+
+    
